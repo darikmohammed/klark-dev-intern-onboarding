@@ -1,0 +1,53 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* 
+put your css styles here, incase you dont use scss
+
+Note: don't write css for something that can be accomplished using bootstrap
+*/
+
+.comment-title {
+  border-bottom: solid 1px silver;
+  font-weight: bold;
+  padding: 8px 8px 8px 0px;
+}
+
+.comment-type {
+  border: 1px solid rgb(241, 160, 94);
+  color: rgb(241, 160, 94);
+}
+
+.color-blue {
+  padding: 16px;
+  background-color: #F1FAFF;
+}
+
+.color-grey {
+  padding: 16px;
+  background-color: #F3F6F9;
+}
+
+.edit {
+  background-color: rgb(241, 160, 94);
+  color: black;
+}
+
+.form-control {
+  border: 0;
+}
+
+.modal-header,
+.modal-footer {
+  background-color: #E1E9FF;
+  padding: 8px;
+}
+
+.undo-approval {
+  color: rgb(176, 154, 138) !important;
+  border: 1px solid rgb(176, 154, 138) !important;
+}
